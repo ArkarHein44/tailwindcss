@@ -27,6 +27,12 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ```
 
 `npx tailwindcss` means tailwindcss cli run on npm
+<br/>
+
 `-i` i flag for input directory
+<br/>
+
 `-o` o flag for output directory
+<br/>
+
 `--watch` watch flag tells the tailwind cli for changes in your input
