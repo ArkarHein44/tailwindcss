@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Transform Origin</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body class=" font-mono">
+	<h1 class="text-center text-amber-400 text-xl font-bold m-4">Transform Origin</h1>
+
+	<div class="flex justify-center items-center space-x-6 my-10">
+		<div class="w-20 h-20 border bg-amber-400 origin-center hover:rotate-180 ease-in-out transition duration-1000 "></div>	
+		<div class="w-20 h-20 border bg-lime-400 origin-left hover:rotate-45 ease-in-out transition duration-1000 "></div>				
+		<div class="w-20 h-20 border bg-purple-400 origin-right hover:rotate-45 ease-in-out transition duration-1000"></div>
+		<div class="w-20 h-20 border bg-sky-400 origin-top hover:rotate-45 ease-in-out transition duration-1000"></div>
+		<div class="w-20 h-20 border bg-pink-400 origin-bottom hover:rotate-45 ease-in-out transition duration-1000"></div>
+
+		<div class="w-20 h-20 border bg-lime-400 origin-top-left hover:rotate-45 ease-in-out transition duration-1000"></div>				
+		<div class="w-20 h-20 border bg-purple-400 origin-top-right hover:rotate-45 ease-in-out transition duration-1000"></div>
+		<div class="w-20 h-20 border bg-sky-400 origin-bottom-left hover:rotate-45 ease-in-out transition duration-1000"></div>
+		<div class="w-20 h-20 border bg-pink-400 origin-bottom-right hover:rotate-45 ease-in transition duration-700"></div>
+	</div>
+
+	<div class="flex justify-center items-center space-x-6">
+		<img class="w-20 h-20 animate-spin" src="../src/img/shuriken.png" alt="shuriken">
+		<img class="w-20 h-20 animate-spin" src="../src/img/shuriken.png" alt="shuriken">
+		<img class="w-20 h-20 animate-spin" src="../src/img/shuriken.png" alt="shuriken">
+		<img class="w-20 h-20 animate-spin" src="../src/img/shuriken.png" alt="shuriken">
+		<img class="w-20 h-20 animate-spin" src="../src/img/shuriken.png" alt="shuriken">		
+	</div>	
+
+	<div class="text-center mt-4 ">
+		<a href="index.html" class="text-white bg-blue-400 p-2 rounded">Go Back</a>
+	</div>
+
+	
+
+	
+</body>
+</html>
+
+<!--
+
+origin-center           transform-origin:center;
+origin-left
+origin-right
+origin-top
+origin-bottom
+
+origin-top-left         transform-origin:left top;
+origin-top-right        transform-origin:right top;
+origin-bottom-left      transform-origin:left bottom;
+origin-bottom-right     transform-origin:right bottom;
+
+-->
