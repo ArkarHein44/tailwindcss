@@ -147,3 +147,22 @@ row-end-11
 row-end-12
 row-end-13
 ```
+
+### gap
+```text
+
+gap-0                               gap:0;
+gap-x-0                             column-gap:0;
+gap-y-0                             row-gap:0;
+
+gap-px                               
+gap-x-px                          
+gap-y-px                            
+
+
+1 1.5 2 2.5 3 3.5 4
+5 6 7 8 9 10 11 12
+14 16
+20 24 26 28 32 36 40 44 48 52 56 60 64 72 80
+96
+```
